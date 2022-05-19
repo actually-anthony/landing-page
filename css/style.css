@@ -65,6 +65,7 @@ body{
 
 .hero-main{
     font-size: 48px;
+    font-weight: bolder;
 }
 
 .left button{
@@ -74,4 +75,40 @@ body{
     padding: 5px 20px 5px 20px;
     border: none;
     border-radius: 5px;
+}
+
+.left p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.mid-section{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.mid-section h1 {
+    text-align: center;
+    
+}
+
+.gallery{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info-picture{
+    border:3px solid #3882F6;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.caption{
+    margin-top: 10px;
+    width: 150px;
+    text-align: center;
+    color: #e5e7eb;
 }
